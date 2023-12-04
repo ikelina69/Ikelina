@@ -1,0 +1,109 @@
+h1 {
+    text-align: center;
+    border: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+body {
+
+    color: black;
+    font-style: italic;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: left;
+    border-left: none;
+    border-right: 5px;
+    box-sizing: content-box;
+    background-image: url('Wallpapers/Blur.Wallpapers.19.jpg');
+    font-size: larger;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: calc(2px);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+tr {
+    background-color: rgb(206, 217, 228);
+    color: white;
+    text-align: center;
+
+    width: 50px;
+}
+
+td {
+    color: rgb(255, 255, 255);
+}
+
+table {
+    width: 900px;
+    align-content: center;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+
+}
+
+section {
+    background-color: white;
+    height: 3000px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 3px;
+}
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+img {
+    padding-left: 20px;
+    height: 150px;
+    border-radius: 2px;
+}
+
+#Search {
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    position: relative;
+    margin-left: 52rem;
+    margin-bottom: 3px;
+}
+
+#Submit {
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    margin-left: 52rem;
+    width: 80px;
+    background-color: rgb(238, 235, 235);
+    
+}
+#Submit:hover{
+    opacity: 0.7;
+}
+#Submit:active{
+    opacity: 0.4;
+}
