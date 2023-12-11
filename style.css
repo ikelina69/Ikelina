@@ -1,0 +1,176 @@
+/*intro*/
+h1 {
+    text-align: center;
+    border: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-style: normal;
+    display: inline;
+    margin: 0;
+    vertical-align: top;
+}
+header{
+    background-color: white;
+    display: inline-block;
+}
+
+.Pad1{
+    
+}
+
+.Pad{
+    display: inline-block;
+}
+
+
+body {
+
+    color: black;
+    font-style: italic;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-align: left;
+    border-left: none;
+    border-right: 5px;
+    box-sizing: content-box;
+    background-image: url("images/Blur.Wallpapers.19.jpg");
+    font-size: larger;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: calc(2px);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-style: italic;}
+
+tr {
+    background-color: rgb(206, 217, 228);
+    color: white;
+    text-align: center;
+    width: 50px;
+}
+
+table {
+    width: 900px;
+    align-content: center;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+section {
+    background-color: white;
+    /*height: 3000px;*/
+    border-radius: 3px;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-left: 15px;
+}
+#search1{
+    display: inline;
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-right: 20px;
+}
+form{
+    display: inline;
+    float: right;
+}
+#search{
+    width: 80px;
+    height: 25px;
+    font-weight: bold;
+}
+
+#search:hover{
+    opacity: 0.7;
+}
+#search:active{
+    opacity: 0.4;
+}
+
+.intro{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 0%;
+}
+
+/*games*/
+.games{
+    display: inline-block;
+}
+
+
+.game-pic{
+    display: inline-block;
+}
+.game-title{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+   
+}
+span{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.Blur-pic,.FIFA-pic{
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+.Blur-title,.FIFA-title{
+    display: inline-block;
+    vertical-align: top;
+     font-weight: bold;
+     font-size: 35px;
+}
+.Blur-note{
+    display: inline-block;
+    width: 100px;
+    margin-left: 60px;
+}
+.Games{
+    display: inline-block;
+}
+
+.title{
+    font-weight: bold;
+    vertical-align: top;
+    
+    
+} */
