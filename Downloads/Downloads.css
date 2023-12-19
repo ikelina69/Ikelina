@@ -9,6 +9,11 @@ h1 {
     margin: 0;
     vertical-align: top;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
 header{
     background-color: white;
     display: inline-block;
@@ -32,7 +37,7 @@ body {
     border-left: none;
     border-right: 5px;
     box-sizing: content-box;
-    background-image: url("images/Blur.Wallpapers.19.jpg");
+    background-image: url("../images/Blur.Wallpapers.19.jpg");
     font-size: larger;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,7 +71,6 @@ table {
     margin-right: auto;
     background-color: black;
 }
-
 section {
     background-color: white;
     border-radius: 3px;
@@ -74,7 +78,6 @@ section {
     margin-right: 7rem;
     padding-left: 15px;
     padding-bottom: 40px;
-    color: black;
 }
 #search1{
     display: inline;
@@ -107,54 +110,47 @@ form{
     position: relative;
     bottom: 0%;
 }
+/*Game Download*/
 
-/*games*/
-.games{
-    display: inline-block;
-}
-
-
-.game-pic{
-    display: inline-block;
-    margin-right: 20px;
-}
-.game-title{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 25px;
-   
-}
-span{
-    font-weight: bold;
-    font-size: 40px;
-}
 .picture{
-    width: 230px;
+    width: 450px;
+    display: block;
 }
-.link:hover{
-    background-color: rgba(194, 194, 194, 0.884);
+.discription{
+    text-align: center;
+    display: inline-block;
+    
+}
+h2{
+    margin-bottom: 0;
+}
+.Download{
+    position: relative;
+    left: 37.5%;
+    background-color: rgba(73, 228, 255, 0.650);
+    width: 250px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
     color: black;
-    text-decoration: none;
-    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 27.5px;
 }
-.link:active{
+.Download:hover{
+    opacity: 0.7;
+}
+.Download:active{
     opacity: 0.4;
 }
-/*outro*/
-footer{
-    background-color: white;
-    display: block;
-    margin-left: 38px;
-    height: 50px;
+.shot{
+    position: relative;
+    left: 45%;
+    color: rgb(201, 201, 201);
 }
-
-
-
-
-
-
-
-
 
 
 
